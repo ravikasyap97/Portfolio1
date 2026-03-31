@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="achievements-section">
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">
+                    Recognitions and milestones I've reached along my journey
+                </p>
+            </div>
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="achievement-title">Developed Scalable Backend using Spring Boot</h3>
+                    <p class="achievement-description">
+                        Built a robust backend system using Java and Spring Boot following MVC architecture.
+                        I designed RESTful APIs to handle client requests efficiently and ensured proper separation of concerns
+                         (Controller, Service, Repository). 
+                        This helped in making the application scalable and maintainable.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="achievement-title">Implemented Secure Authentication System</h3>
+                    <p class="achievement-description">
+                        Developed a secure login and registration system using JWT authentication.
+                        I implemented token-based authentication to protect APIs and user data. 
+                        This ensures that only authorized users can access specific endpoints, improving application security.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="achievement-title">Optimized Database Performance And Migration</h3>
+                    <p class="achievement-description">
+                        Migrated database from MySQL to PostgreSQL and optimized queries for better performance.
+                        I redesigned database schemas and improved query efficiency using joins, indexing, and normalization. 
+                        This also helped in easier deployment on platforms like Render without external DB dependency.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-code-merge"></i>
+                    </div>
+                    <h3 class="achievement-title">GitHub Contributions</h3>
+                    <p class="achievement-description">
+                        Actively contributed to open-source projects on GitHub, shared reusable code libraries, and consistently maintained personal
+                         repositories featuring full-stack applications, helping developers learn and collaborate globally.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
